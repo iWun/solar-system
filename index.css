@@ -1,0 +1,26 @@
+html,
+body {
+  background: #000 url(./img/starry_sky_bg.jpg) no-repeat center center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#main {
+  position: relative;
+  /* makes this the origin of its children */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.label {
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: xx-small;
+  padding: 2px;
+}
+
+.label:hover {
+  color: red;
+}
